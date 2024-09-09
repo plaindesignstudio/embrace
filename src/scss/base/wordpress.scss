@@ -1,0 +1,377 @@
+// p, ul, .wp-block-buttons, .wp-block-pullquote, .wp-block-table, .wp-block-pullquote, .wp-block-cover, .wp-block-media-text.is-vertically-aligned-center .wp-block-media-text__content, .wp-block-media-text   {
+//   margin-bottom: 2rem;
+// }
+
+.banner-title{
+  font-size: 2.4em;
+}
+
+.wp-block-categories-list .wp-block-categories-list .cat-item{
+      list-style: none;
+      padding: 0.4em 0.8em;
+      margin-bottom: 0.3em;
+      background-color: $light;
+  
+}
+
+.wp-block-gallery{
+  margin-bottom: 1rem;
+}
+
+.wp-block-gallery li{
+ border-radius: 8px;
+ overflow: hidden;
+}
+
+.underline{
+  width: 20%;
+  max-width: 200px;
+  background: $primary;
+  height: 8px;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+
+.wp-block-image {
+  border-radius: 8px;
+  margin: 2rem auto !important;
+}
+
+.wp-block-cover-image{
+  min-height: 250px !important;
+}
+
+.wp-block-latest-posts{
+  li{
+  margin-bottom: 1.2rem;
+  .wp-block-latest-posts__featured-image{
+    border-radius: 2rem;
+    margin-bottom: 5px;
+    height: 200px;
+    overflow: hidden;
+    img{
+      width: 100%;
+    }
+  }
+  .wp-block-latest-posts__post-title{
+    padding: 8px;
+  }
+}
+}
+
+.wp-block-cover, .wp-block-media-text.is-vertically-aligned-center .wp-block-media-text__content, .wp-block-media-text.is-vertically-aligned-center, .wp-block-media-text  {
+  overflow: hidden;
+  background-color: $light;
+}
+
+.full_width_wp {
+  .wp-block-image, .wp-block-columns, .wp-block-buttons{
+    margin-top: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.8rem;
+    padding: 0 1.5rem;
+    p,  h1, h2, h3, h4, h5, h6, .wp-block-columns, .wp-block-buttons {
+      padding: 0% !important;
+      margin-top: 0.2rem;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1.2rem;
+      
+    }
+  }
+
+  .is-layout-flex{
+    margin-top: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1, h2, h3,h4,h5,h6,p, .wp-block-advanced-blocks-alert, .wp-block-advanced-blocks-blockquote, .wp-block-advanced-blocks-number-box, .gform_wrapper, .wp-block-advanced-blocks-block-cta, .wp-block-advanced-blocks-pricing-table, .wp-block-advanced-blocks-accordion, .wp-block-advanced-blocks-progress-bar,.eb-countdown-wrapper, ul, .wp-block-table, cite, .wp-block-gallery, .wp-block-quote, .wp-block-verse, .wp-container, .wp-block-pullquote{
+    margin-top: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+ ul{
+    padding-left: 2.8rem;
+    li{
+      padding-left: 0.5rem;
+      list-style: disc !important;
+    }
+  }
+  .size-full{
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+}
+
+#postTrigger {
+  ul {
+  list-style: disc !important;
+  }
+}
+
+#postTrigger .arlo-list{
+
+    list-style: none !important;
+
+}
+
+.arlo-event-registration{
+  a{
+    text-align: center;
+  }
+}
+
+.wp-block-media-text__media img, .wp-block-media-text__media video, .wp-block-media-text__media {
+  width: auto !important;
+  overflow: hidden;
+}
+
+.wp-block-image figcaption, .wp-block-table figcaption{
+  text-align: center;
+  padding: 4px;
+}
+
+.wp-block-pullquote {
+  background-image: url('../images/banner/background-plain-blue.svg') !important;
+  object-fit: cover !important;
+  background-position: bottom !important;
+  //border-radius: 8px !important;
+  background-repeat: no-repeat !important;
+  background-color: $primary !important;
+  color: $light !important;
+  background-size: cover !important;
+  padding: 2rem 1rem;
+}
+
+.wp-block-table table tr:nth-child(even){
+  background: $content !important;
+}
+
+.wp-block-quote {
+  //background-image: url('../images/banner/background-plain-top.svg');
+  background-color: $light;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  color: $dark !important;
+  background-position: bottom;
+  //border-left: solid 5px $primary;
+  padding: 5rem 3rem;
+}
+
+
+.wp-block-quote p:before, .wp-block-quote p:after, .wp-block-pullquote p:before, .wp-block-pullquote p:after {
+    content: '"';
+}
+
+.wp-block-media-text__content .has-large-font-size,
+.wp-block-quote p, .wp-block-pullquote p, .wp-block-cover__inner-container .has-large-font-size  {
+  font-size: 2rem;
+  font-weight: 600;
+  //color: $secondary;
+}
+
+.wp-block-media-text__content .has-large-font-size,
+.wp-block-quote p{
+    //color: $white;
+    margin: 0px;
+}
+
+.wp-block-pullquote p, .wp-block-cover__inner-container .has-large-font-size {
+  color: $light;
+  //font-family: "EB Garamond",serif,"HelveticaNeue-Bold","Helvetica Neue",sans-serif;
+}
+
+.resource-icon-wrapper{
+
+  display: flex;
+  flex-wrap: wrap;
+  .icon{
+  background-color: $primary;
+  position: relative;
+  z-index: 100;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: -20px;
+  left: -20px;
+  padding: 8px 0px 0px 8px;
+  img{
+    width: 80%;
+    text-align: center;
+    font-size: 25px !important;
+  }
+  }
+  .cat-Referral {
+    background: $orange;
+  }
+  .cat-Video{
+    background: $secondary;
+  }
+
+  .cat-Report{
+    background: $blue;
+  }
+
+  .cat-Resources{
+    background: $warning;
+  }
+}
+
+.sf-item-9::before{
+  height: 50px;
+  width: 50px;
+  background: $primary;
+}
+
+//TWITTER FEED STYLES
+
+.ctf-item{
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 2em;
+}
+
+#ctf #ctf-more{
+  background: white;
+  color: $primary;
+}
+
+#ctf .ctf-header-img img{
+  border: white 1px solid;
+}
+
+#ctf .ctf-header-text .ctf-header-bio{
+  color: white;
+}
+
+#ctf .ctf-header-name{
+  color: white;
+}
+
+#ctf #ctf-more:hover{
+  background: $secondary;
+  color: $white;
+  border: 1px $white solid;
+}
+
+.overflow-y-hidden{
+  overflow-y: hidden;
+  overflow-y: visible;
+}
+
+.values-md-image-wrapper{
+  //max-height: 365px;
+  //overflow: hidden;
+}
+.section-cutout-bottom{
+  height: 100px;
+  width: 100%;
+}
+
+.section-cutout-top{
+  height: 100px;
+  top: -100px;
+  width: 100%;
+}
+
+.has-primary-color {
+  color: $primary;
+}
+
+.has-primary-background-color {
+  background-color: $primary;
+}
+
+.has-light-color {
+  color: $light;
+}
+
+.has-light-background-color {
+  background-color: $light;
+}
+
+.has-secondary-color {
+  color: $secondary;
+}
+
+.has-secondary-background-color {
+  background-color: $secondary;
+}
+
+.has-dark-color {
+  color: $dark;
+}
+
+.has-dark-background-color {
+  background-color: $dark;
+}
+
+
+.has-yellow-color {
+  color: $warning;
+}
+
+.has-yellow-background-color {
+  background-color: $warning;
+}
+
+.has-red-color {
+  color: $danger;
+}
+
+.has-red-background-color {
+  background-color: $danger;
+}
+
+.has-black-color {
+  color: $black;
+}
+
+.has-black-background-color {
+  background-color: $black;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after,
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before{
+  display: none !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs{
+  padding: 0px;
+  li{
+    padding-left: 5px;
+    padding-right: 3em;
+    background: none !important;
+    border: none;
+    a{
+    color: $light !important;
+    opacity: 0.8;
+    font-weight: 200 !important;
+    }
+  }
+  li.active{
+    ::after{
+      display: none;
+    }
+  background: none !important;
+  border: none;
+  a{
+    color: $light;
+    font-weight: 700 !important;
+    opacity: 1;
+    }
+}
+
+}
+
+.woocommerce div.product .woocommerce-tabs .panel{
+  h2{ display: none;} 
+}

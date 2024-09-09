@@ -1,0 +1,634 @@
+#gform_1,
+.gform_fields {
+  .gfield_label {
+    color: $dark;
+  }
+}
+
+form {
+  label {
+    color: $dark;
+    font-size: 1.1em;
+    //font-weight: 400;
+  }
+}
+
+.gfield_validation_message {
+  color: $danger !important;
+  font-size: 0.8em;
+  margin-bottom: 1.8em;
+}
+
+#subscription-form {
+  .gform_heading {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.gform_description {
+  margin-bottom: 1.8em !important;
+}
+
+.gform_title {
+  color: $secondary !important;
+  text-align: center;
+}
+
+.fieldset,
+.ginput_container {
+  display: flex;
+  flex-wrap: wrap;
+
+
+  span {
+    flex-grow: 4;
+
+    input {
+      // margin-right: 0px;
+      // margin-bottom: 0px;
+    }
+  }
+}
+
+.contact_form, .form-group, .tml-field, .wpcf7-form {
+
+  input .form-control,
+  textarea,
+  input[type=date],
+  input[type=datetime],
+  input[type=datetime-local],
+  input[type=email],
+  input[type=month],
+  input[type=number],
+  input[type=password],
+  input[type=range],
+  input[type=search],
+  input[type=tel],
+  input[type=text],
+  input[type=time],
+  input[type=url],
+  input[type=week] {
+    //  display: block !important;
+    // width: 100% !important;
+    // height: calc(1.5em + .75rem + 2px) !important;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $dark;
+    background: $white !important;
+    background-clip: padding-box;
+    // border: 0px solid $primary !important;
+    // border-bottom: 1px solid $primary !important;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1.2em;
+    margin-right: 10px;
+    box-shadow: none !important;
+    border-radius: 6px !important;
+    margin-bottom: 10px;
+    //transition: border-color 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+    //box-shadow 0.5s ease-in-out;
+  }
+
+  // textarea {
+  //   height: 35px !important;
+  //   min-block-size: 0rem !important;
+  //   padding: 10px 8px !important;
+  // }
+}
+
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=range],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+textarea,
+input[type=week] {
+  //  display: block !important;
+  // width: 100% !important;
+  // height: calc(1.5em + .75rem + 2px) !important;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $dark;
+  //background-color: $content;
+  background-clip: padding-box;
+  border: 2px solid $primary;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 1.4em;
+  margin-right: 10px;
+  //border-radius: 0.8rem !important;
+  //transition: border-color 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+  //box-shadow 0.5s ease-in-out;
+}
+
+
+.pmpro_checkout-field,
+form {
+
+  input[type=date],
+  input[type=datetime],
+  input[type=datetime-local],
+  input[type=email],
+  input[type=month],
+  input[type=number],
+  input[type=password],
+  input[type=range],
+  input[type=search],
+  input[type=tel],
+  input[type=text],
+  input[type=time],
+  input[type=url],
+  textarea,
+  input[type=week] {
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $dark;
+    // background-color: $light;
+    background-clip: padding-box;
+    border: 1px solid $dark;
+    //border-radius: 1.2em;
+    padding: 10px;
+    margin-bottom: 0.2em !important;
+  }
+
+  select {
+    font-weight: 400;
+    line-height: 1.5;
+    color: $dark;
+    background-color: $light;
+    background-clip: padding-box;
+    border: 1px solid $dark;
+    padding: 10px;    margin-bottom: 0.2em !important;
+  }
+
+}
+
+
+.gform_wrapper.gravity-theme .gsection {
+  margin-top: 2rem;
+}
+
+.ginput_total {
+  font-size: 1.4rem !important;
+  font-weight: bold !important;
+}
+
+#gform_3,
+.gform_fields {
+  label {
+    color: $primary;
+  }
+
+  input[type=date],
+  input[type=datetime],
+  input[type=datetime-local],
+  input[type=email],
+  input[type=month],
+  input[type=number],
+  input[type=password],
+  input[type=range],
+  input[type=search],
+  input[type=tel],
+  input[type=text],
+  input[type=time],
+  input[type=url],
+  input[type=week] {
+    background-color: $content;
+  }
+}
+
+.gform_fields,
+.gform_wrapper {
+
+  .gsection_title,
+  .gform_heading {
+    margin-bottom: 2.5em;
+  }
+
+  .gform_title {
+    padding-left: 0px;
+    color: $secondary !important;
+    margin-bottom: 0px;
+  }
+
+
+}
+
+.wpforms-submit {
+  border-radius: 50rem !important;
+}
+
+.pmpro_message {
+  background: none;
+  color: $info;
+  border: 1px solid $info;
+  border-radius: 10em;
+}
+
+form label {
+  //font-weight: 600 !important;
+  //color: $primary;
+  //margin-bottom: 0px;
+  //font-size: 1.2em;
+}
+
+.instruction {
+  margin-bottom: 5px !important;
+  font-size: 0.9em;
+  color: $dark;
+  margin-bottom: 5px;
+}
+
+form .control {
+  margin-bottom: 15px;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+  color: $dark;
+  font-weight: 300;
+}
+
+div.wpforms-container-full .wpforms-form .uneditable-input:focus,
+.gfield {
+
+  textarea:focus,
+  input:focus,
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="date"]:focus,
+  input[type="month"]:focus,
+  input[type="time"]:focus,
+  input[type="week"]:focus,
+  input[type="number"]:focus,
+  input[type="email"]:focus,
+  input[type="url"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="color"]:focus {
+    -webkit-box-shadow: 0px 9px 7px -7px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 9px 7px -7px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 9px 7px -7px rgba(0, 0, 0, 0.14);
+    //outline: 0 none;
+    //border: 0px;
+    border: 1px solid $secondary !important;
+    transition: 0.5s;
+  }
+}
+
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.radio-toolbar label {
+  display: inline-block;
+  background-color: $light;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  // font-size: 16px;
+  border: 0px solid $secondary;
+  border-radius: 4px;
+  margin-right: 2rem;
+}
+
+.radio-toolbar input[type="radio"]:checked+label {
+  // background-color:#bfb;
+  background-color: $primary;
+  opacity: 1;
+}
+
+.radio-toolbar label:hover {
+  background-color: $primary;
+  color: $secondary;
+  opacity: 1;
+  //  border: 2px solid $primary;
+}
+
+
+//PILL SECTION
+.pill-group .gfield_radio{
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  display: flex;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 0 12px 12px 0;
+  flex-wrap: wrap;
+  //border: 1px solid $primary;
+
+  .gchoice{
+    border: 2px solid $light;
+    border-radius: 25rem;
+    background: $light;
+    display: block;
+    text-decoration: none;
+    margin-right: 12px;
+    margin-bottom: 12px;
+
+    input{
+    display: none;
+    }
+    label{
+      // font-family: 'Roca Two';
+      padding: 8px 32px;
+      margin: 0px;
+      text-align: center;
+      font-size: 1rem !important;
+      font-weight: bold !important;
+      max-width: 100% !important;
+    }
+
+    input[type="radio"]:checked + label {
+       color: $primary;
+       opacity: 1;
+  }
+  }
+}
+
+.gfield_checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+
+  .gchoice {
+    display: flex;
+    margin-right: 2em;
+    margin-top: 1.2em;
+
+    .gfield-choice-input {
+      width: fit-content !important;
+    }
+
+    label {
+      margin: 0.2em 0.8em;
+      font-size: 1em;
+    }
+  }
+}
+
+.gform-theme--framework .gfield--type-choice .gfield_radio{
+  flex-direction: row;
+}
+
+//SEARCH AND FILTER PRO
+#search_filter_resources,
+.form_pill {
+  form {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    ul, .gfield_radio {
+      align-items: center;
+      margin: 0px !important;
+      width: 100%;
+      display: flex;
+      flex-direction: row !important;
+      padding: 0.5em;
+      flex-wrap: wrap;
+
+      .sf-field-sort_order {
+        border: solid 1px $primary;
+        border-radius: 25em;
+        padding: 0.2em 0.8em;
+        margin-right: 1.2em;
+
+        label {
+          padding: 0.2em 0em;
+
+          .sf-input-select {
+            width: auto;
+            margin: 0px 8px;
+            background: none;
+            color: $dark;
+            border: none;
+            padding: 0px;
+          }
+        }
+      }
+
+      .sf-field-search {
+        width: 100%;
+        .sf-input-text, label{
+          width: 100%;
+          margin: 0px !important;
+        }
+      }
+
+      .sf-field-taxonomy-product_categories,
+      .sf-field-category {
+        width: 100%;
+        max-width: fit-content;
+
+        h4 {
+          text-align: center;
+          padding: 0px;
+          margin: 0px;
+        }
+
+        ul,
+        .pill_list {
+       
+          justify-content: start;
+          flex-wrap: nowrap;
+          border: solid 1px $light;
+          border-radius: 25em;
+          padding: 0px;
+          overflow-y: scroll;
+          -ms-overflow-style: none;
+          /* IE and Edge */
+          scrollbar-width: none;
+
+          /* Firefox */
+          ::-webkit-scrollbar {
+            display: none;
+          }
+
+          li {
+            //background: $primary;
+            width: auto;
+
+
+            input:checked+label {
+              color: white;
+              background: $primary;
+            }
+
+            .sf-input-radio {
+              display: none;
+            }
+
+            label {
+              width: auto;
+              padding: 0.2em 0.8em;
+              margin: 0px 8px;
+              background: none;
+              color: $primary;
+              border-radius: 25em;
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.pill_list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  border-radius: 25em;
+  padding: 0px !important;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  list-style: none;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  li {
+    //background: $primary;
+    width: auto;
+
+
+    input:checked+label {
+      color: white;
+      background: $primary;
+    }
+
+    .sf-input-radio,
+    .nocheck {
+      display: none;
+    }
+
+    label {
+      width: auto;
+      padding: 0.2em 0.8em;
+      margin: 0px 8px;
+      background: $light;
+      border: 1px solid $light;
+      color: $primary;
+      border-radius: 25em;
+      white-space: nowrap;
+      font-size: 1em;
+    }
+  }
+}
+
+.subscriptionForm .gform_fields {
+  display: block !important;
+  width: 100% !important;
+  flex-wrap: wrap !important;
+}
+
+.subscriptionForm .gform_fields {
+  .gfield {
+    width: 49%;
+  }
+
+  .ginput_complex {
+    width: 100%;
+  }
+}
+
+.gform_footer {
+  margin-top: 2em;
+  width: 100%;
+  justify-content: center;
+
+}
+
+#gform_wrapper_1 {
+  .gform_footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.filter_toggle{
+  display: none;
+  border: solid 1px $primary;
+  border-radius: 25em;
+  padding: 0.5em 1.2em;
+  font-weight: bold;
+  color: $primary;
+}
+
+@include media-breakpoint-down(lg) {
+
+  .subscriptionForm .gform_fields {
+    .gfield {
+      width: 100%;
+    }
+
+    .ginput_complex {
+      width: 100%;
+    }
+
+    .gform_footer {
+      margin-top: 1.4em;
+      width: 100%;
+    }
+  }
+
+  .filter_toggle{
+    display: block;
+  }
+
+  #search_filter_resources {
+    form {
+      ul{
+        position: relative;
+        justify-content: space-between;
+      }
+      .sf-field-taxonomy-product_categories{ 
+        ul {
+        display: none;
+        border-radius: 1.4em !important;
+        padding: 0.4em 0.2em !important;
+        position: absolute !important;
+        width: auto !important;
+        z-index: 999 !important;
+        background: white !important;
+        right: 0px;
+        margin-top: 8px;
+        top: 88%;
+      }
+    }
+  }
+
+    form {
+      .sf-field-taxonomy-product_categories .open {
+        display: block;
+      }
+    }
+
+    form {
+      .sf-field-taxonomy-product_categories .closed {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+.wrapper {
+  height: 20%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  // align-items: center;
+  overflow: hidden;
+}
+
+.carousel {
+  background: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+}
+
+.box {
+  // background: green;
+  height: 80%;
+  width: 33%;
+  //min-width: 350px;
+  min-width: 500px;
+  padding: 0.8em;
+  margin: 0;
+  position: relative;
+  flex-shrink: 0;
+  color: black;
+  font-size: 21px;
+  cursor: pointer;
+  // margin: 0.8em;
+}
+
+.box .box_wrapper{
+  width: 100%;
+  padding: 0.8;
+}
+
+.box .image_spacer{
+  height: 200px
+}
+
+.box .box_wrapper .text-area{
+  width: 60%;
+  padding: 0.6em 1.2em;;
+}
+
+// .prev {
+//   // position: absolute;
+//   top: 10%;
+//   left: 15%;
+// }
+// .next {
+//   // position: absolute;
+//   top: 10%;
+//   right: 15%;
+// }
+// button {
+//   padding: 1rem 2rem 1rem 2rem;
+//   border: none;
+//   background: #555;
+//   color: white;
+//   text-transform: uppercase;
+//   font-weight: bold;
+//   cursor: pointer;
+// }
+.toggle {
+  // position: absolute;
+  top: 10%;
+}
+
+.show-overflow {
+  overflow: visible;
+}
+
+@media only screen and (max-width: 800px) {
+  .box {
+    width: 50%;
+    min-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .box {
+    width: 100%;
+    min-width: 100%;
+  }
+}

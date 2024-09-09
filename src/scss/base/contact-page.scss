@@ -1,0 +1,15 @@
+.contact-page-map {
+  min-height: 350px;
+}
+
+@include media-breakpoint-up(lg) {
+  .contact-page-map {
+    min-height: 400px;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .contact-page-map {
+    min-height: 500px;
+  }
+}

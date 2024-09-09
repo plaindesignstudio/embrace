@@ -1,0 +1,46 @@
+.property-search-form .control {
+    display: block;
+}
+
+.flexslider .slides img {
+    height: auto;
+}
+
+.thumbnails {
+    height: 100px;
+}
+
+.thumbnails .flex-viewport {
+    height: 100%;
+}
+
+.property_meta ul {
+    list-style: none;
+    padding: 0px;
+    padding-left: 1rem; 
+}
+
+.property_meta ul li {
+    margin: 2px;
+    background: $light;
+    padding: 5px;
+}
+
+.property_meta ul li span {
+  font-weight: 600;
+}
+
+.sf-field-submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchandfilter ul li{
+    padding: 0.5em;
+    flex-grow: 1;
+}
+
+.searchandfilter label, .searchandfilter label select{
+    width: 100%;
+}

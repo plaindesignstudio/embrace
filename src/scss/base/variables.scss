@@ -1,0 +1,622 @@
+/*! `Custom` Bootstrap 4 theme */
+@import "../../../node_modules/bootstrap/scss/functions";
+
+//@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+$headings-font-family: "latienne-pro", sans-serif, "HelveticaNeue-Bold", "Helvetica Neue", sans-serif;
+
+$headings-font-weight: 500;
+
+//wp-block-columns-is-layout-flex
+
+$font-size-root: null;
+$font-size-base: 0.9rem; // Assumes the browser default, typically `16px`
+$font-size-sm: $font-size-base * .875;
+$font-size-lg: $font-size-base * 1.25;
+
+//Font weight variables
+$font-weight-lighter:         lighter;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            700;
+$font-weight-bolder:          bolder;
+
+//Base weight
+$font-weight-base:            $font-weight-normal;
+
+//Base line height
+$line-height-base:            1.64;
+$line-height-sm:              1;
+$line-height-lg:              2;
+
+//Heading sizes
+$h1-font-size:                $font-size-base * 3.5;
+$h2-font-size:                $font-size-base * 3;
+$h3-font-size:                $font-size-base * 2.75;
+$h4-font-size:                $font-size-base * 2.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base;
+
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+  7: 1.5rem
+);
+
+$accordion-border-width: 0px;
+
+a {
+
+    text-decoration: none !important;
+}
+
+
+.font-weight-light{
+    font-weight: 300 !important; 
+}
+.fw-extra-bold{
+    font-weight: 1000 !important;
+  }
+
+// Example usage:
+//#FFFBF4
+// $content: #ffffff;
+// $primary: #1E5F94;
+// $dark: #000000;
+// $light: #EFF8FF;
+// $secondary: #46B3DE;
+$grey: #EFEFEF;
+
+// Example usage:
+$primary: #034A54;
+$secondary: #F2D79C;
+$accent: #D16203;
+$text: #1D1D1B;
+$dark: #1D1D1B;
+$black: #000000;
+$back: #a9a9a9;
+$content: #ffffff;
+$success:#28a745;
+$danger:#FF0000;
+$info:#9BCDFA;
+$warning:#ffc107;
+$light:#FFFBF3;
+$ptitle:#3d5c73;
+$titletext: #000000;
+$form-input: #e4e4e4;
+
+$theme-colors: (
+    "light":      $light,
+    "dark":       $dark,
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "accent":     $accent,
+    "info":       #677f8a,
+    "accent1":    #314c40,
+    "accent2":    #556a58,
+    "accent3":    #9cabb0,
+    "success":    #0d9f44,
+    "warning":    #ebc50f,
+    "danger":     #f10533,
+    "content":     $content,
+    "grey": $grey
+);
+
+
+$container-max-widths: (
+  sm: 600px,
+  md: 800px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$accordion-button-focus-box-shadow: none;
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: 1px solid $primary;
+}
+//$headings-color: $dark;
+
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/maps";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/utilities";
+
+// LAYOUT & COMPONENTS
+@import "../../../node_modules/bootstrap/scss/root";
+@import "../../../node_modules/bootstrap/scss/reboot";
+@import "../../../node_modules/bootstrap/scss/type";
+@import "../../../node_modules/bootstrap/scss/images";
+@import "../../../node_modules/bootstrap/scss/containers";
+@import "../../../node_modules/bootstrap/scss/grid";
+// @import "../../../node_modules/bootstrap/scss/tables";
+// @import "../../../node_modules/bootstrap/scss/forms";
+@import "../../../node_modules/bootstrap/scss/buttons";
+@import "../../../node_modules/bootstrap/scss/transitions";
+// @import "../../../node_modules/bootstrap/scss/dropdown";
+// @import "../../../node_modules/bootstrap/scss/button-group";
+// @import "../../../node_modules/bootstrap/scss/nav";
+// @import "../../../node_modules/bootstrap/scss/navbar";
+// @import "../../../node_modules/bootstrap/scss/card";
+@import "../../../node_modules/bootstrap/scss/accordion";
+// @import "../../../node_modules/bootstrap/scss/breadcrumb";
+// @import "../../../node_modules/bootstrap/scss/pagination";
+// @import "../../../node_modules/bootstrap/scss/badge";
+// @import "../../../node_modules/bootstrap/scss/alert";
+// @import "../../../node_modules/bootstrap/scss/progress";
+// @import "../../../node_modules/bootstrap/scss/list-group";
+// @import "../../../node_modules/bootstrap/scss/close";
+// @import "../../../node_modules/bootstrap/scss/toasts";
+@import "../../../node_modules/bootstrap/scss/modal";
+// @import "../../../node_modules/bootstrap/scss/tooltip";
+// @import "../../../node_modules/bootstrap/scss/popover";
+//@import "../../../node_modules/bootstrap/scss/carousel";
+// @import "../../../node_modules/bootstrap/scss/spinners";
+
+// HELPERS
+@import "../../../node_modules/bootstrap/scss/helpers";
+
+//$container-padding-x: 0.2em;
+
+@mixin make-container($padding-x: $container-padding-x) { 
+    width: 100%; 
+    padding-right: $padding-x; 
+    padding-left: $padding-x; 
+    margin-right: auto; 
+    margin-left: auto; 
+} 
+
+
+$container-max-widths: (
+  sm: 600px,
+  md: 800px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+  
+  // Usage
+  .wp-block-columns {
+    @include make-container();
+    @extend .container; 
+  }
+
+// UTILITIES
+//@import "../../../node_modules/bootstrap/scss/utilities/api";
+
+// h1, h2, h3, h4, h5 {
+//     //font-weight: 700 !important;
+//     font-style: normal !important;
+//     margin-bottom: 1.5rem !important;
+//     //text-transform: uppercase;
+//     // font-weight: bold;
+//     font-style: normal;
+//     color: $primary;
+//     line-height: 1.2em;
+//     }
+
+    
+body{
+    overflow-x: hidden !important;
+    // max-width: 2000px;
+    // margin: 0 auto;
+}
+
+
+body a:hover {
+    text-decoration: none;
+  
+}
+
+.accordion-button:focus {
+    border-color: $secondary !important;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
+.radius-lg{
+    border-radius: 2rem;
+}
+
+.fw-bolder {
+    font-weight: 1000 !important;
+}
+
+.radius-right-lg{
+    border-radius: 0rem 2rem 2rem 0rem;
+}
+
+.radius-md{
+    border-radius: 1.25rem;
+}
+
+.radius-bottom-md{
+    border-radius: 0rem 0rem 1.25rem 1.25rem;
+}
+
+.radius-top-md{
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+
+.radius-sm{
+    border-radius: 0.50rem;
+}
+
+.shadow-dark-lg{
+    box-shadow: 0em 1rem 1rem rgb(28 26 28 / 68%) !important
+}
+
+.border-orange-top-lg{
+    border-top: 8px $orange solid;
+}
+
+.team-image{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+
+.hover-block{
+    position: relative;
+    top: 0px;
+    transition: ease 0.3s;
+    box-shadow: 0px 5px 10px -5px rgba(108,110,135,0.4) !important;
+&:hover {
+    top: -20px;
+    box-shadow: 0px 50px 30px -20px rgba(108,110,135,0.3) !important;
+    }
+}
+
+
+.floating-number-wrapper {
+    position:absolute;
+    top: -30px;
+    left: -30px;
+    z-index: 100;
+    .circle{
+        height: 80px;
+        width: 80px;
+        background: white;
+        border: 2px solid $secondary;
+        border-radius: 25rem;
+       
+        box-shadow: 0px 5px 10px -5px rgba(75, 79, 133, 0.6) !important;
+    }
+    .circle-number{
+        font-size: 40px;
+        text-align: center;
+        margin: 12px;
+        color: $secondary;
+    }
+}
+
+ul li {
+    margin: 4px;
+    // margin-left: 20px;
+}
+
+
+ul li:first-letter {
+    // margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.z-index-100 {
+    z-index: 100;
+}
+
+.fill-primary{
+    fill: $primary;
+}
+
+.fill-secondary{
+    fill: $secondary;
+}
+
+.fill-content{
+    fill: $content;
+}
+
+.fill-light{
+    fill: $light;
+}
+
+.primary-shadow{ 
+    box-shadow: 0px 1rem 1rem -9px rgb(22 3 49 / 87%);
+}
+
+.secondary-inset-shadow{ 
+    box-shadow: inset 10px 2rem 1rem -14px rgb(41 19 6 / 62%)
+}
+// .page-numbers {
+//     display: flex;
+//     justify-content: center;
+//     list-style: none;
+//     background: $light;
+// }
+
+// .page-numbers li{
+//   padding: 1rem;
+// }
+
+// .page-numbers li:hover{
+//   background: $primary;
+// }
+
+// .page-numbers li a{
+//   color: $secondary;
+//   background: transparent;
+// }
+
+
+.icon-wrapper {
+    max-width: 150px;
+}
+
+
+.top-0 {        position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: -1px;
+}
+
+
+.bottom-0 {
+    bottom: -1px;
+}
+
+
+.left-0 {
+    left: 0px;
+}
+
+.right-0 {
+    right: 0px;
+}
+
+.ease-in, .fill-secondary, .fill-primary {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.sidebar-nav li a {
+    color: $light;
+    padding-left: 10px;
+}
+
+.wp-spacer-sm{
+    height: 50px;
+    width:100%;
+    display: block;
+}
+
+.wp-spacer-md{
+    height: 75px;
+    width:100%;
+    display: block;
+}
+
+.wp-spacer-lg{
+    height: 100px;
+    width:100%;
+    display: block;
+}
+
+.wp-spacer-xl{
+    height: 150px;
+    width:100%;
+    display: block;
+}
+
+
+.display-xl{
+display: none;
+}
+
+.display-md{
+    display: none;
+}
+
+
+.accordion-button.collapsed::after {
+
+    background: url("../images/icons/plus.svg");
+  
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+  
+    background: url("../images/icons/plus.svg");
+  
+  }
+
+@include media-breakpoint-up(xl) {
+    .display-xl{
+        display: block;
+        }
+}
+
+
+@include media-breakpoint-down(lg) {
+
+    .decorative-left-image{
+          max-width: 150px !important;
+          height: auto;
+          width: 35%;
+          left: -40px !important;
+      }
+
+      .decorative-right-image{
+        max-width: 150px !important;
+        height: auto;
+        width: 35%;
+        right: -100px !important;
+    }
+
+
+
+  .display-lg{
+    display: none;
+  }
+
+
+}
+
+.flagsText p{
+    font-size: 10px !important;
+    margin-bottom: 8px;
+}
+
+@include media-breakpoint-up(md) {
+
+    .display-md{
+        display: block;
+    }
+
+}
+
+@include media-breakpoint-up(lg) {
+
+
+  .display-lg{
+    display: block;
+  }
+  .decorative-left-image{
+     min-width: 80px;
+      min-height: 80px;
+      max-width: 250px;
+      max-height: 250px;
+      height: auto;
+      width: 15%;
+      left: -10%;
+  }
+
+  .decorative-right-image{
+    min-width: 80px;
+     min-height: 80px;
+     max-width: 250px;
+     max-height: 250px;
+     height: auto;
+     width: 15%;
+     right: -10%;
+ }
+
+}
+
+@include media-breakpoint-down(md){
+
+    .hide-md{
+        display: none;
+    }
+    #donationContainer h2 {
+        color: $white !important;
+        font-size: 5rem;
+    }
+
+    .decorative-left-image{
+        max-width: 100px !important;
+        height: auto;
+        width: 35%;
+        left: -70px !important;
+    }
+
+    .decorative-right-image{
+        max-width: 100px !important;
+        height: auto;
+        width: 35%;
+        right: -70px !important;
+    }
+
+    .mobile-text-center{
+        text-align: center;
+        button{
+            margin: 0 auto;
+        }
+      }
+    .wp-block-social-links{
+        justify-content: center;
+    }
+      .mobile-center{
+        display: flex;
+        justify-content: center;
+      }
+
+    .floating-number-wrapper {
+        position:absolute;
+        margin: 0 auto;
+        top: -41px;
+        left: 0;
+        width: 100%;
+        .circle{
+        
+            position: relative;
+            height: 80px;
+            width: 80px;
+            background: white;
+            border: 2px solid $secondary;
+            border-radius: 25rem;
+            margin: 0 auto;
+            z-index: 100;
+            box-shadow: 0px 5px 10px -5px rgba(75, 79, 133, 0.6) !important;
+        }
+    }
+
+}
+
+@include media-breakpoint-down(sm){
+
+    .display-sm{
+        display: block;
+      }
+
+    .hide-sm{
+        display: none;
+    }
+
+    #donationContainer h2 {
+        color: $content !important;
+        font-size: 2rem;
+    }
+}
+
+
+@include media-breakpoint-up(sm){
+
+    .display-sm{
+        display: none;
+      }
+
+    #donationContainer h2 {
+        color: $content !important;
+        font-size: 2rem;
+    }
+}

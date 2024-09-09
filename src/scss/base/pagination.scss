@@ -1,0 +1,30 @@
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin-top: 2.8em;
+  .page-numbers{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0.4em 0.2em;
+    width: 30px;
+    height: 30px;
+    padding: 1em;
+    background-color: $light;
+    border-radius: 25em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px $light;
+    &:hover{
+      border: solid 1px $dark;
+    }
+  }
+  .next, .prev{
+    width: fit-content !important;
+    padding: 1em 1em;
+  }
+  .current{
+    background-color: $primary;
+    color: $content;
+  }
+}

@@ -1,0 +1,137 @@
+.services-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: -1;
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+      to right,
+      rgba($secondary-dark, 1) 0%,
+      rgba($secondary-dark, 0.98) 30%,
+      rgba($secondary-dark, 0.85) 60%,
+      rgba($secondary-dark, 0.4) 100%
+    );
+  }
+}
+
+.align-title {
+  margin: 0;
+}
+
+.section-image-absolute,
+.section-image-centered {
+  position: relative;
+  width: 100%;
+  max-width: 30rem;
+  margin: 0 auto;
+  // margin-bottom: 2rem;
+}
+
+.wide-section-image {
+  width: 100%;
+}
+
+.wide-section-image-extra {
+  max-width: 60rem;
+}
+
+.orange-puzzle {
+  position: absolute;
+  width: 9rem;
+  height: auto;
+  bottom: 0;
+  transform: translateY(6rem);
+  right: 5%;
+  z-index: 15;
+}
+
+@include media-breakpoint-up(md) {
+  .align-title {
+    margin: 1rem;
+  }
+  .section-image-absolute {
+    max-width: 48rem;
+    position: absolute;
+    bottom: 0;
+  }
+  .section-image-absolute--centered {
+    bottom: unset;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .section-image-centered {
+    max-width: 31rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45%);
+  }
+  .section-image-centered-large {
+    max-width: 45rem;
+  }
+  .section-image-right {
+    left: 51%;
+  }
+  .section-image-left {
+    right: 51%;
+  }
+  .wide-section-image {
+    max-width: 70rem;
+  }
+  .wide-section-image-extra {
+    max-width: 60rem;
+  }
+  .orange-puzzle {
+    width: 13rem;
+    transform: translateY(7rem);
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .section-image-absolute {
+    max-width: 55rem;
+  }
+  .section-image-centered {
+    max-width: 36rem;
+  }
+  .section-image-centered-large {
+    max-width: 55rem;
+  }
+  .wide-section-image {
+    max-width: 95rem;
+  }
+  .wide-section-image-extra {
+    max-width: 60rem;
+  }
+  .padding-extra-top {
+    padding-top: 6rem;
+  }
+  .padding-extra-bottom {
+    padding-bottom: 6rem;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .image-limiter {
+    max-width: 45rem;
+  }
+  .wide-section-image {
+    max-width: 60rem;
+  }
+}
+
+@include media-breakpoint-up(xxl) {
+  .wide-section-image-extra {
+    max-width: 65rem;
+  }
+}

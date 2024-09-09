@@ -1,0 +1,57 @@
+{
+  "name": "gulp-tutorial",
+  "version": "1.0.0",
+  "description": "This is a simple gulp tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "serve": "gulp serve"
+  },
+  "keywords": [
+    "gulpfile.",
+    "tutorial",
+    "js",
+    "scss"
+  ],
+  "author": "Joshua Sullivan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.14",
+    "browserify": "^16.5.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^3.0.0",
+    "sass": "^1.52.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "@popperjs/core": "^2.7.0",
+    "bootstrap": "^5.0.0-beta2",
+    "gsap": "^3.6.1",
+    "gulp-watch": "^3.0.0",
+    "imagemin-webp": "^8.0.0",
+    "jquery": "^3.5.1",
+    "node-fetch": "^2.7.0",
+    "popper.js": "^1.16.1",
+    "scrollmagic": "^2.0.8",
+    "scrollmagic-plugin-gsap": "^1.0.4",
+    "vanilla-lazyload": "^17.3.1"
+  }
+}

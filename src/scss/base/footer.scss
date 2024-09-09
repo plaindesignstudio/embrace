@@ -1,0 +1,32 @@
+footer {
+  padding: 4rem 0 0;
+  font-size: 0.8rem;
+  a {
+    color: $primary !important;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  & .cat-item a,
+  & .menu-item .nav-link {
+    padding: unset;
+    color: $primary;
+    background-color: transparent;
+    text-decoration: none;
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  .privacy a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba($orange, 0.4);
+    transition: color 0.1s ease-in-out;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+}

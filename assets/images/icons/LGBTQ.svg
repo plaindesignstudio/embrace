@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61.794" height="37.076" viewBox="0 0 61.794 37.076">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_2798" data-name="Path 2798" d="M110-19.821h61.716V-25.98H110Z" transform="translate(-110 25.98)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_499" data-name="Rectangle 499" width="63" height="7" transform="translate(-0.097)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_2797" data-name="Path 2797" d="M171.716-25.979c-27.486,0-46.108,0-61.716,0v6.158h61.716Z" transform="translate(-110 25.98)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_2796" data-name="Path 2796" d="M110-18.677h62.974V-26H110Z" transform="translate(-110 26)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Path_2809" data-name="Path 2809" d="M110,11.076h61.794V-26H110Z" transform="translate(-110 26)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect id="Rectangle_500" data-name="Rectangle 500" width="63" height="32" transform="translate(-0.097 0.142)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <path id="Path_2800" data-name="Path 2800" d="M110-15.574h61.794v-6.264H110Z" transform="translate(-110 21.838)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <path id="Path_2802" data-name="Path 2802" d="M110-11.413h61.794v-6.264H110Z" transform="translate(-110 17.677)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-9">
+      <path id="Path_2804" data-name="Path 2804" d="M110-7.136h61.794V-13.4H110Z" transform="translate(-110 13.4)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-10">
+      <path id="Path_2806" data-name="Path 2806" d="M110-2.858h61.794V-9.122H110Z" transform="translate(-110 9.122)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-11">
+      <path id="Path_2808" data-name="Path 2808" d="M110,1.25h61.794V-4.845H110Z" transform="translate(-110 4.845)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_733" data-name="Group 733" transform="translate(0 0.029)" clip-path="url(#clip-path)">
+    <g id="Group_732" data-name="Group 732" transform="translate(0 -0.03)" style="isolation: isolate">
+      <g id="Group_731" data-name="Group 731" clip-path="url(#clip-path-2)">
+        <g id="Group_730" data-name="Group 730" transform="translate(0 0.029)" clip-path="url(#clip-path-3)">
+          <g id="Group_729" data-name="Group 729" transform="translate(0 -0.029)" clip-path="url(#clip-path-4)">
+            <path id="Path_2795" data-name="Path 2795" d="M105-30.98h76.362v20.8H105Z" transform="translate(-112.323 23.687)" fill="#ed3a2e"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Group_741" data-name="Group 741" clip-path="url(#clip-path-5)">
+    <g id="Group_740" data-name="Group 740" transform="translate(0 5.858)" style="isolation: isolate">
+      <g id="Group_739" data-name="Group 739" clip-path="url(#clip-path-6)">
+        <g id="Group_734" data-name="Group 734" transform="translate(0 0.237)" clip-path="url(#clip-path-7)">
+          <path id="Path_2799" data-name="Path 2799" d="M105-26.838h76.439V-5.929H105Z" transform="translate(-112.323 19.516)" fill="#ffa300"/>
+        </g>
+        <g id="Group_735" data-name="Group 735" transform="translate(0 6.331)" clip-path="url(#clip-path-8)">
+          <path id="Path_2801" data-name="Path 2801" d="M105-22.677h76.439V-1.768H105Z" transform="translate(-112.323 15.354)" fill="#ffd300"/>
+        </g>
+        <g id="Group_736" data-name="Group 736" transform="translate(0 12.595)" clip-path="url(#clip-path-9)">
+          <path id="Path_2803" data-name="Path 2803" d="M105-18.4h76.439V2.51H105Z" transform="translate(-112.323 11.077)" fill="#81bb40"/>
+        </g>
+        <g id="Group_737" data-name="Group 737" transform="translate(0 18.86)" clip-path="url(#clip-path-10)">
+          <path id="Path_2805" data-name="Path 2805" d="M105-14.122h76.439V6.787H105Z" transform="translate(-112.323 6.8)" fill="#4a4ea0"/>
+        </g>
+        <g id="Group_738" data-name="Group 738" transform="translate(0 25.124)" clip-path="url(#clip-path-11)">
+          <path id="Path_2807" data-name="Path 2807" d="M105-9.845h76.439v20.74H105Z" transform="translate(-112.323 2.523)" fill="#a9509d"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

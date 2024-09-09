@@ -1,0 +1,58 @@
+// //Extras
+@import "./utils.scss";
+
+.alignfull {
+    margin-left: calc((-100vw + 100%) / 2);
+    width: 100vw;
+    padding-left: calc((100vw - 100%) / 2);
+    padding-right: calc((100vw - 100%) / 2);
+}
+
+.clipping_path{
+    clip-path: polygon(25px 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+
+
+.block_clipping_path{
+    clip-path: polygon(0% 0%,94.00% 0.00%,87% 100%,0% 100%);
+}
+
+/* Referencing an SVG clipPath */
+.svg-clipped {
+    -webkit-clip-path: url(#svgPath);
+    clip-path: url(#svgPath);
+    
+}
+
+.top-svg:before{
+    content: url(../images/banner/top-svg.svg);
+    width: 100%;
+    height: 300px;
+    display: block;
+    bottom: 100%;
+    //position: absolute;
+    left: 0px;
+}
+
+.has-medium-font-size {
+    font-size: 1.6em !important;
+}
+
+.embrace-radius{
+    border-radius: 0em 0em 8em 0em !important;
+}
+
+
+.gradient-bottom-primary{
+    background: rgb(2,0,36);
+background: linear-gradient(357deg, $primary 0%, rgba(0,212,255,0) 100%);
+}
+
+@include media-breakpoint-down(md) {
+
+    .block_clipping_path{
+        clip-path: unset;
+
+    }
+
+    }
